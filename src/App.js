@@ -1,16 +1,14 @@
-import React, {useState} from "react"
-
+import React from "react"
+import Counter from "./components/counter"
+import NameSurname from "./components/NameSurname"
 import './App.css';
 
 function App() {
-  const initialState = 0
-  const [counter, changeCounter] = useState(initialState)
+  
   return (
     <div className="App">
-     <h1>Counter = {counter}</h1>
-     <button onClick={()=> changeCounter(initialState)}>Reset Number</button>
-     <button onClick={() => changeCounter(counter + 1)}>Increase Number</button>
-     <button onClick = {() => changeCounter(counter - 1)}>Decrese Number</button>
+      <Counter /><br/>
+      <NameSurname/>
     </div>
   );
 }

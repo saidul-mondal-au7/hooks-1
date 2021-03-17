@@ -1,6 +1,7 @@
 import React from "react"
 import Counter from "./components/counter"
 import NameSurname from "./components/NameSurname"
+import ArrayItems from "./components/array"
 import './App.css';
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
   return (
     <div className="App">
       <Counter /><br/>
-      <NameSurname/>
+      <NameSurname/><br/>
+      <ArrayItems />
     </div>
   );
 }

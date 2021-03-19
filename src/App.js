@@ -3,6 +3,7 @@ import Counter from "./components/counter"
 import NameSurname from "./components/NameSurname"
 import ArrayItems from "./components/array"
 import UseEffect from "./components/UseEffect"
+import UseEffect1 from "./components/UseEffect1"
 import './App.css';
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       <Counter /><br/>
       <NameSurname/><br/>
       <ArrayItems /><br/>
-      <UseEffect/>
+      <UseEffect/><br/>
+      <UseEffect1/>
     </div>
   );
 }

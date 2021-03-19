@@ -5,7 +5,7 @@ const Counter = () => {
     const [count, changeCount] = useState(initialState)
 
     const Increase = () =>{
-        changeCount(count + 1)
+        changeCount((prevState)=>prevState+1)
     }
     const Decrease =() => {
         changeCount(count - 1)

@@ -1,0 +1,4 @@
+What is useReducer ?
+
+=>  useReducer is a hook that is used for state management.
+    It is an alternative to useState.
